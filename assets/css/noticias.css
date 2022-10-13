@@ -1,0 +1,18 @@
+.noticias {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.noticias__conteudo {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    justify-content: space-between;
+    gap: 1em;
+}
+.conteudo img {
+    width: 100%;
+}
+.conteudo h3 {
+    font-weight: 700;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}

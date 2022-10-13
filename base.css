@@ -1,0 +1,26 @@
+
+@import url(assets/css/reset.css);
+@import url(assets/css/components/container.css);
+@import url(assets/css/tocaRecent.css);
+@import url(assets/css/hipstersPontoTech.css);
+@import url(assets/css/links.css);
+@import url(assets/css/noticias.css);
+
+:root {
+    --font-openSans: 'Open Sans', sans-serif;
+}
+
+body {
+    background: rgb(21,69,128);
+    background: linear-gradient(0deg, rgba(21,69,128,1) 0%, rgba(4,24,51,1) 100%);
+    width: 100vw;
+    height: 100%;
+    color: white;
+    font-family: var(--font-openSans);
+
+}
+.titulo {
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}

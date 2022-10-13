@@ -1,0 +1,33 @@
+
+.tocaRecent__titulo {
+    padding-top: 2.5em;
+}
+
+.tocaRecent__links {
+    display: grid;
+    column-gap: 1em;
+    row-gap: 0.5em;
+    box-sizing: border-box;
+    grid-template-columns: 0.5fr 0.5fr;
+    justify-content: space-between;
+    
+
+    
+}
+
+.tocaRecent__card {
+    background-color: rgba(196, 196, 196, 0.2);
+    border: 0px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 0.4fr 0.6fr;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    align-items: center;
+    font-size: 14px;
+}
+
+.tocaRecent__card h3 {
+    padding-right: 0.1em;
+}

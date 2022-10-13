@@ -1,0 +1,44 @@
+.hipsters {
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+}
+
+.hipsters__background {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-size: 40%;
+    background-image: url("../img/Rectangle_9_left.png"), url("../img/Rectangle_9_rigth.png") ;
+    background-repeat: no-repeat;
+    background-position: 10% 0px, top right 10%;
+    width: 100%;
+    height: 185px;
+}
+
+.hipsters__background-navs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100vw;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    height: 65px;
+    
+    
+    
+}
+.hipsters__background-navs a {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    
+
+}
+.hipsters__background-navs a img {
+    width: 25px;
+    height: 25px;
+}

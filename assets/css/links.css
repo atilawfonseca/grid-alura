@@ -1,0 +1,11 @@
+.links__funcionalidades {
+    display: grid;
+    grid-template-columns: .5fr .5fr;
+    gap: 0.5em;
+    grid-template-rows: 35px 35px;
+}
+
+.links__funcionalidades a {
+    color: white;
+    text-decoration: none;
+}
