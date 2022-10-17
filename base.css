@@ -5,22 +5,51 @@
 @import url(assets/css/hipstersPontoTech.css);
 @import url(assets/css/links.css);
 @import url(assets/css/noticias.css);
+@import url(assets/css/cabecalho1024.css);
+@import url(assets/css/tocador__musica.css);
 
 :root {
     --font-openSans: 'Open Sans', sans-serif;
+    
+    
+    --cor-back-menu-lateral:#041833;
+    --cor-back-musica:#154580;
 }
 
 body {
     background: rgb(21,69,128);
-    background: linear-gradient(0deg, rgba(21,69,128,1) 0%, rgba(4,24,51,1) 100%);
+    background: linear-gradient(180deg, #154580 0%, #041833 100%);
     width: 100vw;
     height: 100%;
     color: white;
     font-family: var(--font-openSans);
+    
 
 }
 .titulo {
     font-weight: 700;
     font-size: 1.5em;
     margin-bottom: 1em;
+    margin-top: 2em;
+}
+
+@media screen and (min-width:1024px) {
+    body {
+        display: grid;
+        grid-template-areas: 
+        "cabecalho principal";
+        grid-template-columns: 20% 80%;
+        box-sizing: border-box;
+        width: 100vw;
+    }
+    .principal {
+        margin-top: 3.5em;   
+    }
+
+    .titulo {
+        font-size: 1.75em;
+        margin-bottom: 1.5em;
+        margin-top: 2em;
+    }
+    
 }

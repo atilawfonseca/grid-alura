@@ -1,0 +1,29 @@
+.cabecalho {
+    background-color: var(--cor-back-menu-lateral);
+}
+
+.alura_cast_logo {
+    width: 80%;
+    display: block;
+    margin: 3em auto;
+
+}
+.menu__lateral-principal {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    margin-bottom: 3em;
+}
+
+.menu__lateral-principal a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    display: flex;
+    gap: .75em;
+    justify-items: center;
+}
+
+.menu__lateral-principal a img {
+    
+}

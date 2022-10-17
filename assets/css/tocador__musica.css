@@ -1,0 +1,47 @@
+.tocador__musica {
+    display: none;
+}
+
+
+@media screen and (min-width:1024px) {
+    
+.tocador__musica {
+    display: grid;
+    grid-template-columns: .08fr .22fr .5fr .20fr;
+    width: 100vw;
+    background-color: var(--cor-back-musica);
+    height: 96px;
+    align-items: center;
+    top: 1520px;
+    position: absolute;
+   
+
+}
+.tocador__musica img {
+    margin: 0px auto;
+}
+.tocador__musica--right p{
+    padding-top: 0.25em;
+}
+
+.tocador__musica--centro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+}
+.tocador__musica--centro-superior {
+    display: flex;
+    gap: 1.5em;
+}
+.tocador__musica--centro-inferior {
+    display: flex;
+    gap: 0.5em;
+}
+.tocador__musica--rigth {
+    display: flex;
+    gap: 0.25em;
+    padding-top: 45px;
+}
+    
+}

@@ -11,40 +11,100 @@
     <link rel="stylesheet" href="base.css">
 </head>
 <body>
-    <header></header>
-    <main>
+    <header class="cabecalho container">
+        <div class="menu__lateral">
+            <img src="/assets/img/alura-cast_logo.png" alt="icone do alura cast" class="alura_cast_logo">
+            <div class="menu__lateral-principal">
+                <a href="#">
+                    <img src="assets/icons/home.svg" alt="">
+                    <span>Home</span>
+                </a>
+                <a href="#">
+                    <img src="assets/icons/search.svg" alt="">
+                    <span>Busca</span>
+                </a>
+                <a href="#">
+                    <img src="assets/icons/bookmark.svg" alt="">
+                    <span>Sua Biblioteca</span>
+                </a>
+            </div>
+            <div class="menu__lateral-principal">
+                <h3 class="titulo">PLAYLISTS</h3>
+                <a href="#">
+                    <img src="assets/icons/add_box.svg" alt="icon criar playlist">
+                    <p>Criar Playlist</p>
+                </a>
+                <a href="#">
+                    <img src="assets/icons/stars.svg" alt="icon podcasts salvos">
+                    <p>Podcasts salvos</p>
+                </a>
+            </div>
+        </div>
+
+    </header>
+    <main class="principal">
         <section class=" container">
             <h2 class="tocaRecent__titulo titulo">Tocados Recentemente</h2>
+
             <div class="tocaRecent__links">
                 <a class="tocaRecent__card" href="#">
-                    <img src="assets/img/android_jetpatck.png" alt="imagem android jetpatck">
-                    <h3>Android Jetpack</h3>
+                    <img class="tocaRecent__card--img-left" src="assets/img/android_jetpatck.png" alt="imagem android jetpatck">
+                    <div class="tocaRecent__card-texto-central">
+                        <h3>Android Jetpack</h3>
+                        <p class="texto1024px">Hipsters Ponto Tech</p>
+                    </div>
+                    <img src="assets/img/botao_play1024.png" alt="botao de play" class="botao1024px">
                 </a>
                 <a class="tocaRecent__card" href="#">
-                    <img src="assets/img/o_fim.png" alt="imagem O Fim">
-                    <h3>O Fim</h3>
+                    <img class="tocaRecent__card--img-left" src="assets/img/o_fim.png" alt="imagem O Fim">
+                    <div class="tocaRecent__card-texto-central">
+                        <h3>Fim</h3>
+                        <p class="texto1024px">Hipsters Ponto Tech</p>
+                    </div>
+                    <img src="assets/img/botao_play1024.png" alt="botao de play" class="botao1024px">
+                    
+
                 </a>
                 <a class="tocaRecent__card" href="#">
-                    <img src="assets/img/izabel_galera.png" alt="imagem Izabel Gallera">
-                    <h3>Izabel Gallera</h3>
+                    <img class="tocaRecent__card--img-left" src="assets/img/izabel_galera.png" alt="imagem Izabel Gallera">
+                    <div class="tocaRecent__card-texto-central">
+                        <h3>Izabel Gallera</h3>
+                        <p class="texto1024px">Hipsters Ponto Tech</p>
+                    </div>
+                    <img src="assets/img/botao_play1024.png" alt="botao de play" class="botao1024px">
                 </a>
                 <a class="tocaRecent__card" href="#">
-                    <img src="assets/img/tipos_cortes.png" alt="imagem Tipos de Cortes">
-                    <h3>Tipos de Cortes</h3>
+                    <img class="tocaRecent__card--img-left" src="assets/img/tipos_cortes.png" alt="imagem Tipos de Cortes">
+                    <div class="tocaRecent__card-texto-central">
+                        <h3>Tipos de Cortes</h3>
+                        <p class="texto1024px">Hipsters Ponto Tech</p>
+                    </div>
+                    <img src="assets/img/botao_play1024.png" alt="botao de play" class="botao1024px">
                 </a>
                 <a class="tocaRecent__card" href="#">
-                    <img src="assets/img/adv_tech.png" alt="imagem Da advocacia à tech">
-                    <h3>Da advocacia à tech</h3>
+                    <img class="tocaRecent__card--img-left" src="assets/img/adv_tech.png" alt="imagem Da advocacia à tech">
+                    <div class="tocaRecent__card-texto-central">
+                        <h3>Da advocacia à tech</h3>
+                        <p class="texto1024px">Hipsters Ponto Tech</p>
+                    </div>
+                    <img src="assets/img/botao_play1024.png" alt="botao de play" class="botao1024px">
                 </a>
                 <a class="tocaRecent__card" href="#">
-                    <img src="assets/img/ecossistemas.png" alt="imagem Ecossistema Cyrpto">
-                    <h3>Ecossistema Cyrpto</h3>
+                    <img  class="tocaRecent__card--img-left" src="assets/img/ecossistemas.png" alt="imagem Ecossistema Cyrpto">
+                    <div class="tocaRecent__card-texto-central">
+                        <h3>Ecossistema Cyrpto</h3>
+                        <p class="texto1024px">Hipsters Ponto Tech</p>
+                    </div>
+                    <img src="assets/img/botao_play1024.png" alt="botao de play" class="botao1024px">
                 </a>
             </div>
         </section>
 
         <section class="hipsters">
-            <h2 class="titulo hipsters__titulo container">Hipsters Ponto Tech</h2>
+            <div class="hipsters__cabecalho">
+                <h2 class="titulo hipsters__titulo">Hipsters Ponto Tech</h2>
+                <a>Ver mais</a>
+            </div>
             <div class="hipsters__background">
                 <div class="hipsters__background-navs">
                     <a href="#">
@@ -60,6 +120,44 @@
                         <span>Sua Biblioteca</span>
                     </a>
                 </div>
+            </div>
+
+            <div class="hipsters__background1024px container">
+                <a href="#" class="hipsters__card1024px">
+                    <img src="assets/img/github.png" alt="">
+                    <h3 class="hipsters__titulo1024px">Github e nossas Funcionalidades Preferidas</h3>
+                    <p class="hipsters__texto1024px">Hipsters Ponto Tech</p>
+                </a>
+                <a href="#" class="hipsters__card1024px">
+                    <img src="assets/img/android_jetpatck1024.png" alt="">
+                    <h3 class="hipsters__titulo1024px">Android Jetpack</h3>
+                    <p class="hipsters__texto1024px">Hipsters Ponto Tech</p>
+                </a>
+                <a href="#" class="hipsters__card1024px">
+                    <img src="assets/img/hipsters_hard.png" alt="">
+                    <h3 class="hipsters__titulo1024px">Softskills em Tech</h3>
+                    <p class="hipsters__texto1024px">Hipsters Ponto Tech</p>
+                </a>
+
+                <a href="#" class="hipsters__card1024px">
+                    <img src="assets/img/educacao_dados_machinelearning.png" alt="">
+                    <h3 class="hipsters__titulo1024px">Educação em Dados e Machine Learning</h3>
+                    <p class="hipsters__texto1024px">Hipsters Ponto Tech</p>
+                </a>
+                
+                <a href="#" class="hipsters__card1024px card1400px">
+                    <img src="assets/img/EcosCrypto.png" alt="">
+                    <h3 class="hipsters__titulo1024px">Ecossistema Crypto</h3>
+                    <p class="hipsters__texto1024px">Hipsters Ponto Tech</p>
+                </a>
+
+                <a href="#" class="hipsters__card1024px card1400px">
+                    <img src="assets/img/educacao_tecnologia_periferia.png" alt="">
+                    <h3 class="hipsters__titulo1024px">Educação, Tecnologia e Periferia</h3>
+                    <p class="hipsters__texto1024px">Hipsters Ponto Tech</p>
+                </a>
+                
+                
             </div>
         </section>
 
@@ -101,9 +199,125 @@
             </div>
         </section>
 
+        <section class="noticias1024px">
+            <div class="noticias1024px__cabecalho">
+                <h2 class="titulo hipsters__titulo">Indicados para você</h2>
+                <a>Ver mais</a>
+            </div>
+
+            <div class="hipsters__background1024px container">
+                <a href="#" class="hipsters__card1024px">
+                    <img src="assets/img/montando_estudio.png" alt="Montando seu estúdio">
+                    <h3 class="hipsters__titulo1024px">Montando seu estúdio</h3>
+                    <p class="hipsters__texto1024px">Layer Ponto Tech</p>
+                </a>
+                <a href="#" class="hipsters__card1024px">
+                    <img src="assets/img/scuba.png" alt="Voltando ao mercado após a maternidade">
+                    <h3 class="hipsters__titulo1024px">Voltando ao mercado após a maternidade</h3>
+                    <p class="hipsters__texto1024px">Scuba Ponto Dev</p>
+                </a>
+                <a href="#" class="hipsters__card1024px">
+                    <img src="assets/img/reencontrando_paixao_Programar.png" alt="">
+                    <h3 class="hipsters__titulo1024px">Reencontrando a paixão por programar</h3>
+                    <p class="hipsters__texto1024px">Scuba Ponto Dev</p>
+                </a>
+
+                <a href="#" class="hipsters__card1024px">
+                    <img src="assets/img/dev_sem_front.png" alt="">
+                    <h3 class="hipsters__titulo1024px">Suporte UX/UI</h3>
+                    <p class="hipsters__texto1024px">Dev sem Fronteiras</p>
+                </a>
+
+                <a href="#" class="hipsters__card1024px card1400px">
+                    <img src="assets/img/prospeccao_clientes.png" alt="">
+                    <h3 class="hipsters__titulo1024px">Prospecção de clientes</h3>
+                    <p class="hipsters__texto1024px">Layers Ponto Tech</p>
+                </a>
+
+                <a href="#" class="hipsters__card1024px card1400px">
+                    <img src="assets/img/mariana_vasconcelos.png" alt="">
+                    <h3 class="hipsters__titulo1024px">Mariana Vasconcelos: CEO  Agrosmart</h3>
+                    <p class="hipsters__texto1024px">Like a Boss</p>
+                </a>
+                
+            </div>
+        </section>
+
+        <section class="noticias1024px">
+            <div class="noticias1024px__cabecalho">
+                <h2 class="titulo hipsters__titulo">Dev sem Fronteiras</h2>
+            </div>
+
+            <div class="hipsters__background1024px container">
+                <a href="#" class="hipsters__card1024px">
+                    <img src="assets/img/dev_sem_front.png" alt="Montando seu estúdio">
+                    <h3 class="hipsters__titulo1024px">Vida e Trabalho na Costa Lest</h3>
+                    <p class="hipsters__texto1024px">Dev sem Fronteiras</p>
+                </a>
+                <a href="#" class="hipsters__card1024px">
+                    <img src="assets/img/dev_sem_front.png" alt="Voltando ao mercado após a maternidade">
+                    <h3 class="hipsters__titulo1024px">Agile Coach e Desenvolvedor</h3>
+                    <p class="hipsters__texto1024px">Dev sem Fronteiras</p>
+                </a>
+                <a href="#" class="hipsters__card1024px">
+                    <img src="assets/img/dev_sem_front.png" alt="">
+                    <h3 class="hipsters__titulo1024px">Desenvolvedor</h3>
+                    <p class="hipsters__texto1024px">Dev sem Fronteiras</p>
+                </a>
+
+                <a href="#" class="hipsters__card1024px">
+                    <img src="assets/img/dev_sem_front.png" alt="">
+                    <h3 class="hipsters__titulo1024px">Suporte UX/UI</h3>
+                    <p class="hipsters__texto1024px">Dev sem Fronteiras</p>
+                </a>
+
+                <a href="#" class="hipsters__card1024px card1400px">
+                    <img src="assets/img/dev_sem_front.png" alt="">
+                    <h3 class="hipsters__titulo1024px">Ecossistema Crypto</h3>
+                    <p class="hipsters__texto1024px">Hipsters Ponto Tech</p>
+                </a>
+
+                <a href="#" class="hipsters__card1024px card1400px">
+                    <img src="assets/img/dev_sem_front.png" alt="">
+                    <h3 class="hipsters__titulo1024px">Educação, Tecnologia e Periferia</h3>
+                    <p class="hipsters__texto1024px">Hipsters Ponto Tech</p>
+                </a>
+                
+            </div>
+        </section>
+
         
 
     </main>
+    <section class="tocador__musica">
+        <img src="assets/img/android_jetpatck.png" alt="">
+        <div class="tocador__musica--right">
+            <h3><strong>Android Jetpack</strong></h3>
+            <p>Hipsters Ponto Tech</p>
+        </div>
+        <div class="tocador__musica--centro">
+            <div class="tocador__musica--centro-superior">
+                <img src="assets/icons/replay_10_music.svg" alt="">
+                <img src="assets/icons/skip_previous_music.svg" alt="">
+                <img src="assets/icons/Play_music.svg" alt="">
+                <img src="assets/icons/skip_next_music.svg" alt="">
+                <img src="assets/icons/forward_10_music.svg" alt="">
+            </div>
+
+            <div class="tocador__musica--centro-inferior">
+                <p>10:15</p>
+                <img src="assets/icons/Rectangle__music.svg" alt="">
+                <p>18:35</p>
+            </div>
+        </div>
+        <div class="tocador__musica--rigth">
+            <img src="assets/icons/Volume down_music.svg" alt="">
+            <img src="assets/icons/barra_volume_music.svg" alt="">
+            <img src="assets/icons/Volumeup__music.svg" alt="">
+        </div>
+
+
+    </section>
     
 </body>
 </html>

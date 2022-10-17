@@ -1,6 +1,13 @@
 .hipsters {
     margin-top: 2em;
     margin-bottom: 0.5em;
+   
+}
+.menu__lateral {
+    display: none;
+}
+.hipsters__titulo {
+    padding-left: 0.65em;
 }
 
 .hipsters__background {
@@ -20,7 +27,6 @@
     justify-content: space-around;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.8);
-    width: 100vw;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     height: 65px;
@@ -41,4 +47,94 @@
 .hipsters__background-navs a img {
     width: 25px;
     height: 25px;
+}
+.hipsters__background1024px {
+    display: none;
+}
+.hipsters__cabecalho a {
+    display: none;
+}
+.noticias1024px {
+    display: none;
+}
+@media screen and (min-width:1024px) {
+    .hipsters__background-navs {
+        display: none;
+    }
+    .menu__lateral {
+        display: block;
+    }
+    
+    .hipsters__background {
+        display: none;
+    }
+    .hipsters__background1024px {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        box-sizing: border-box;
+        margin-bottom: 2em;
+        width: 100%;
+        
+    }
+    .hipsters__cabecalho, .noticias1024px__cabecalho {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .hipsters__cabecalho a , .noticias1024px__cabecalho a{
+        display: block;
+        padding-right: 20px;
+    }
+
+    .hipsters__titulo1024px {
+        color: white;
+        font-weight: 700;
+
+    }
+    .hipsters__texto1024px {
+        color: white;
+        font-weight: 400; 
+    }
+    .hipsters__card1024px {
+        display: flex;
+        max-width: 165px;
+        flex-direction: column;
+        text-decoration: none;
+        background-color: rgba(255, 255, 255, .2);
+        padding: .75em;
+        border-radius: 10px;
+        gap: 0.5em;
+        box-sizing: border-box;
+        margin: 2px;
+
+    }
+    
+    .noticias1024px {
+        display: flex;
+        flex-direction: column;
+    }
+    .noticias1024px__cabecalho {
+        display: flex;
+
+    }
+    .card1400px {
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width:1400px) {
+
+    .card1400px {
+        display: block;
+    }
+
+    .card1400px {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
 }
